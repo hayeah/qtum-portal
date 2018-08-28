@@ -54,7 +54,7 @@ In another tab, open http://localhost:9899 to authorize transactions requested b
 
 Typically you'd be using a live-reload server when developing your HTML5 DApp. By default QTUM portal provides security by locking down the DApp from making cross domain requests. If you are using a dev server for development purposes, you'll need to disable CORS protection.
 
-The example DApp [getnewaddr](qtum-dapp-getnewaddr) uses [Neutrino](https://neutrino.js.org/) for project building.
+The example DApp [examples/getnewaddr](qtum-dapp-getnewaddr) uses [Neutrino](https://neutrino.js.org/) for project building.
 
 Start the Neutrino live-reload dev-server:
 
